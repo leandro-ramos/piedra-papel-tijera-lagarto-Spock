@@ -27,19 +27,16 @@ public class Mano {
 		Integer mano1 = this.forma.getValor();
 		Integer mano2 = otra.forma.getValor();
 		
-		if(mano1 == mano2){
-			return Resultado.EMPATA;
-		}
-		else{
+		if (mano1 == mano2) {
+			return Resultado.EMPATA;}
+		else {
 		
-			if(mano1 == (mano2 + 1) % 5 || mano1 == (mano2 + 2) % 5) {
+			if (mano1 == (mano2 + 1) % 5 || mano1 == (mano2 + 2) % 5) {
 		
-				return Resultado.GANA;
-			}
-			else{
+				return Resultado.GANA;}
+			else {
 		
-				return Resultado.PIERDE;
-			}
+				return Resultado.PIERDE;}
 		}
 	}
 

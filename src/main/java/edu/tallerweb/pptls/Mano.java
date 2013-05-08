@@ -12,7 +12,7 @@ public class Mano {
 	 * @param forma, la Forma que adopta la Mano.
 	 */
 	public Mano(final Forma forma) {
-		this.forma = forma;		
+		this.forma = forma;
 	}
 
 	/**
